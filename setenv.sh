@@ -1,0 +1,1 @@
+./scripts/setenv_eda.sh

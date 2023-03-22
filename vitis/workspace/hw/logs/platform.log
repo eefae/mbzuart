@@ -1,0 +1,1011 @@
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened new HwDB with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWWriter::formatted JSON is {
+	"platformName":	"hw",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw",
+	"platHandOff":	"./hw.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-03-15.22:23:22::SCWWriter::formatted JSON is {
+	"platformName":	"hw",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw",
+	"platHandOff":	"./hw.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw",
+	"systems":	[{
+			"systemName":	"hw",
+			"systemDesc":	"hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw"
+		}]
+}
+TRACE::2023-03-15.22:23:22::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-03-15.22:23:22::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2023-03-15.22:23:22::SCWWriter::formatted JSON is {
+	"platformName":	"hw",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw",
+	"platHandOff":	"./hw.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw",
+	"systems":	[{
+			"systemName":	"hw",
+			"systemDesc":	"hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw"
+		}]
+}
+TRACE::2023-03-15.22:23:22::SCWWriter::formatted JSON is {
+	"platformName":	"hw",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw",
+	"platHandOff":	"./hw.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw",
+	"systems":	[{
+			"systemName":	"hw",
+			"systemDesc":	"hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw"
+		}]
+}
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWDomain::checking for install qemu data   : 
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-03-15.22:23:22::SCWMssOS::No sw design opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::mss does not exists at /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Creating sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Adding the swdes entry, created swdb /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss with des name /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::updating the scw layer changes to swdes at   /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Writing mss at /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Completed writing the mss file at /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-03-15.22:23:22::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-03-15.22:23:22::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-03-15.22:23:22::SCWMssOS::Completed writing the mss file at /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-03-15.22:23:22::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2023-03-15.22:23:22::SCWMssOS::Saving the mss changes /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-03-15.22:23:22::SCWMssOS::Writing the mss file completed /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Commit changes completed.
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWWriter::formatted JSON is {
+	"platformName":	"hw",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw",
+	"platHandOff":	"./hw.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw",
+	"systems":	[{
+			"systemName":	"hw",
+			"systemDesc":	"hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"5050f468b17b55c87fe45daf189a9f23",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-03-15.22:23:22::SCWPlatform::Started generating the artifacts platform hw
+TRACE::2023-03-15.22:23:22::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-15.22:23:22::SCWPlatform::Started generating the artifacts for system configuration hw
+LOG::2023-03-15.22:23:22::SCWSystem::Checking the domain standalone_domain
+LOG::2023-03-15.22:23:22::SCWSystem::Not a boot domain 
+LOG::2023-03-15.22:23:22::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-03-15.22:23:22::SCWDomain::Generating domain artifcats
+TRACE::2023-03-15.22:23:22::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-15.22:23:22::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Completed writing the mss file at /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-03-15.22:23:22::SCWMssOS::Mss edits present, copying mssfile into export location /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-15.22:23:22::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-03-15.22:23:22::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-03-15.22:23:22::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-03-15.22:23:22::SCWMssOS::Copying to export directory.
+TRACE::2023-03-15.22:23:22::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-15.22:23:22::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-03-15.22:23:22::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-03-15.22:23:22::SCWSystem::Completed Processing the sysconfig hw
+LOG::2023-03-15.22:23:22::SCWPlatform::Completed generating the artifacts for system configuration hw
+TRACE::2023-03-15.22:23:22::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-15.22:23:22::SCWSystem::Writing the bif file for system config hw
+TRACE::2023-03-15.22:23:22::SCWSystem::dir created 
+TRACE::2023-03-15.22:23:22::SCWSystem::Writing the bif 
+TRACE::2023-03-15.22:23:22::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-15.22:23:22::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-15.22:23:22::SCWPlatform::Completed generating the platform
+TRACE::2023-03-15.22:23:22::SCWMssOS::Saving the mss changes /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-15.22:23:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-15.22:23:22::SCWMssOS::Commit changes completed.
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWWriter::formatted JSON is {
+	"platformName":	"hw",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw",
+	"platHandOff":	"./hw.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw",
+	"systems":	[{
+			"systemName":	"hw",
+			"systemDesc":	"hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"5050f468b17b55c87fe45daf189a9f23",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-15.22:23:22::SCWPlatform::updated the xpfm file.
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Saving the mss changes /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-15.22:23:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-15.22:23:22::SCWMssOS::Commit changes completed.
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWWriter::formatted JSON is {
+	"platformName":	"hw",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw",
+	"platHandOff":	"./hw.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw",
+	"systems":	[{
+			"systemName":	"hw",
+			"systemDesc":	"hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"5050f468b17b55c87fe45daf189a9f23",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Saving the mss changes /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-15.22:23:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-15.22:23:22::SCWMssOS::Commit changes completed.
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWWriter::formatted JSON is {
+	"platformName":	"hw",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw",
+	"platHandOff":	"./hw.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw",
+	"systems":	[{
+			"systemName":	"hw",
+			"systemDesc":	"hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"5050f468b17b55c87fe45daf189a9f23",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-03-15.22:23:22::SCWPlatform::Started generating the artifacts platform hw
+TRACE::2023-03-15.22:23:22::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-15.22:23:22::SCWPlatform::Started generating the artifacts for system configuration hw
+LOG::2023-03-15.22:23:22::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-03-15.22:23:22::SCWDomain::Generating domain artifcats
+TRACE::2023-03-15.22:23:22::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-15.22:23:22::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Completed writing the mss file at /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-03-15.22:23:22::SCWMssOS::Mss edits present, copying mssfile into export location /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-15.22:23:22::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-03-15.22:23:22::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-03-15.22:23:22::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-03-15.22:23:22::SCWMssOS::Copying to export directory.
+TRACE::2023-03-15.22:23:22::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-15.22:23:22::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-03-15.22:23:22::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-03-15.22:23:22::SCWSystem::Completed Processing the sysconfig hw
+LOG::2023-03-15.22:23:22::SCWPlatform::Completed generating the artifacts for system configuration hw
+TRACE::2023-03-15.22:23:22::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-15.22:23:22::SCWSystem::Writing the bif file for system config hw
+TRACE::2023-03-15.22:23:22::SCWSystem::dir created 
+TRACE::2023-03-15.22:23:22::SCWSystem::Writing the bif 
+TRACE::2023-03-15.22:23:22::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-15.22:23:22::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-15.22:23:22::SCWPlatform::Completed generating the platform
+TRACE::2023-03-15.22:23:22::SCWMssOS::Saving the mss changes /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-15.22:23:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-15.22:23:22::SCWMssOS::Commit changes completed.
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:22::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:22::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:22::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:22::SCWWriter::formatted JSON is {
+	"platformName":	"hw",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw",
+	"platHandOff":	"./hw.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw",
+	"systems":	[{
+			"systemName":	"hw",
+			"systemDesc":	"hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"5050f468b17b55c87fe45daf189a9f23",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-15.22:23:22::SCWPlatform::updated the xpfm file.
+LOG::2023-03-15.22:23:25::SCWPlatform::Started generating the artifacts platform hw
+TRACE::2023-03-15.22:23:25::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-03-15.22:23:25::SCWPlatform::Started generating the artifacts for system configuration hw
+LOG::2023-03-15.22:23:25::SCWSystem::Checking the domain standalone_domain
+LOG::2023-03-15.22:23:25::SCWSystem::Not a boot domain 
+LOG::2023-03-15.22:23:25::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-03-15.22:23:25::SCWDomain::Generating domain artifcats
+TRACE::2023-03-15.22:23:25::SCWMssOS::Generating standalone artifcats
+TRACE::2023-03-15.22:23:25::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-03-15.22:23:25::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:25::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:25::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:25::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:25::SCWMssOS::Completed writing the mss file at /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp
+TRACE::2023-03-15.22:23:25::SCWMssOS::Mss edits present, copying mssfile into export location /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:25::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-03-15.22:23:25::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-03-15.22:23:25::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-03-15.22:23:25::SCWMssOS::doing bsp build ... 
+TRACE::2023-03-15.22:23:25::SCWMssOS::System Command Ran  cd  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2023-03-15.22:23:25::SCWMssOS::make[1]: Entering directory '/home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp'
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make -j 126 --no-print-directory par_libs
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Running Make include in microblaze_0/libsrc/cpu_v2_14/src
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-03-15.22:23:25::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-03-15.22:23:25::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Running Make include in microblaze_0/libsrc/bram_v4_7/src
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-03-15.22:23:25::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-03-15.22:23:25::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Running Make include in microblaze_0/libsrc/standalone_v7_6/src
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2023-03-15.22:23:25::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2023-03-15.22:23:25::SCWMssOS::ons -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Running Make include in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2023-03-15.22:23:25::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+TRACE::2023-03-15.22:23:25::SCWMssOS::s -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Running Make libs in microblaze_0/libsrc/cpu_v2_14/src
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-03-15.22:23:25::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-03-15.22:23:25::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Running Make libs in microblaze_0/libsrc/bram_v4_7/src
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-03-15.22:23:25::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-03-15.22:23:25::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Running Make libs in microblaze_0/libsrc/standalone_v7_6/src
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2023-03-15.22:23:25::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2023-03-15.22:23:25::SCWMssOS:: -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2023-03-15.22:23:25::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+TRACE::2023-03-15.22:23:25::SCWMssOS::Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/fcntl.o microblaze_0/lib/m
+TRACE::2023-03-15.22:23:25::SCWMssOS::icroblaze_enable_icache.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_enable_interrupts.o microblaz
+TRACE::2023-03-15.22:23:25::SCWMssOS::e_0/lib/xil_assert.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microblaze_upd
+TRACE::2023-03-15.22:23:25::SCWMssOS::ate_icache.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_exception.o microblaze_0/lib/microblaze_invalidate_cache_ext_r
+TRACE::2023-03-15.22:23:25::SCWMssOS::ange.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/errno.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0
+TRACE::2023-03-15.22:23:25::SCWMssOS::/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib
+TRACE::2023-03-15.22:23:25::SCWMssOS::/xil_mem.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/xil_testcache.o m
+TRACE::2023-03-15.22:23:25::SCWMssOS::icroblaze_0/lib/xil_util.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuart
+TRACE::2023-03-15.22:23:25::SCWMssOS::lite_sinit.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/xuartlite_
+TRACE::2023-03-15.22:23:25::SCWMssOS::g.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/outb
+TRACE::2023-03-15.22:23:25::SCWMssOS::yte.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xio.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o micr
+TRACE::2023-03-15.22:23:25::SCWMssOS::oblaze_0/lib/xbram_intr.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xuartlite_intr.o microblaze_0/li
+TRACE::2023-03-15.22:23:25::SCWMssOS::b/microblaze_scrub.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/
+TRACE::2023-03-15.22:23:25::SCWMssOS::lib/microblaze_interrupt_handler.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_disable_interrupts.o microblaz
+TRACE::2023-03-15.22:23:25::SCWMssOS::e_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/pvr.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/
+TRACE::2023-03-15.22:23:25::SCWMssOS::xbram_g.o microblaze_0/lib/inbyte.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xbram
+TRACE::2023-03-15.22:23:25::SCWMssOS::_sinit.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microb
+TRACE::2023-03-15.22:23:25::SCWMssOS::laze_disable_dcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/_exit.o microblaze_0/lib/print.o microblaze_0/lib/microbla
+TRACE::2023-03-15.22:23:25::SCWMssOS::ze_disable_exceptions.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xplatform_info.o
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Finished building libraries
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::make[1]: Leaving directory '/home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp'
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Copying to export directory.
+TRACE::2023-03-15.22:23:25::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-03-15.22:23:25::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-03-15.22:23:25::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-03-15.22:23:25::SCWSystem::Completed Processing the sysconfig hw
+LOG::2023-03-15.22:23:25::SCWPlatform::Completed generating the artifacts for system configuration hw
+TRACE::2023-03-15.22:23:25::SCWPlatform::Started preparing the platform 
+TRACE::2023-03-15.22:23:25::SCWSystem::Writing the bif file for system config hw
+TRACE::2023-03-15.22:23:25::SCWSystem::dir created 
+TRACE::2023-03-15.22:23:25::SCWSystem::Writing the bif 
+TRACE::2023-03-15.22:23:25::SCWPlatform::Started writing the spfm file 
+TRACE::2023-03-15.22:23:25::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-03-15.22:23:25::SCWPlatform::Completed generating the platform
+TRACE::2023-03-15.22:23:25::SCWMssOS::Saving the mss changes /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:25::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-03-15.22:23:25::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-03-15.22:23:25::SCWMssOS::Commit changes completed.
+TRACE::2023-03-15.22:23:25::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:25::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:25::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:25::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:25::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:25::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:25::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:25::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:25::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:25::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:25::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:25::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:25::SCWWriter::formatted JSON is {
+	"platformName":	"hw",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw",
+	"platHandOff":	"./hw.xsa",
+	"platIntHandOff":	"<platformDir>/hw/hw.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw",
+	"systems":	[{
+			"systemName":	"hw",
+			"systemDesc":	"hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"5050f468b17b55c87fe45daf189a9f23",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-03-15.22:23:25::SCWPlatform::updated the xpfm file.
+TRACE::2023-03-15.22:23:25::SCWPlatform::Trying to open the hw design at /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA given /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA absoulate path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform::DSA directory /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw
+TRACE::2023-03-15.22:23:25::SCWPlatform:: Platform Path /home/fae/mbzuart_v21p2/vitis/workspace/hw/hw/hw.xsa
+TRACE::2023-03-15.22:23:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Trying to set the existing hwdb with name top_wrapper_0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Opened existing hwdb top_wrapper_0
+TRACE::2023-03-15.22:23:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-03-15.22:23:25::SCWMssOS::Checking the sw design at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2023-03-15.22:23:25::SCWMssOS::DEBUG:  swdes dump  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-03-15.22:23:25::SCWMssOS::Sw design exists and opened at  /home/fae/mbzuart_v21p2/vitis/workspace/hw/microblaze_0/standalone_domain/bsp/system.mss

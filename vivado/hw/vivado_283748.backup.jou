@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Mar 15 22:25:17 2023
+# Process ID: 283748
+# Current directory: /home/fae/mbzuart_v21p2/vivado/hw
+# Command line: vivado -mode gui -project ./hw.xpr -source ../../scripts/xsim_openwave.tcl
+# Log file: /home/fae/mbzuart_v21p2/vivado/hw/vivado.log
+# Journal file: /home/fae/mbzuart_v21p2/vivado/hw/vivado.jou
+# Running On: eda, OS: Linux, CPU Frequency: 1500.000 MHz, CPU Physical cores: 32, Host memory: 540679 MB
+#-----------------------------------------------------------
+start_gui
+open_project ./hw.xpr
+source ../../scripts/xsim_openwave.tcl
+open_wave_config /home/fae/mbzuart_v21p2/scripts/xsim_tb.wcfg
+source tb.tcl
+update_compile_order -fileset sources_1
+run all
+close_sim

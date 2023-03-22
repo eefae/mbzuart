@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../hw.ip_user_files/bd/top/ip/top_dlmb_v10_0/sim/top_dlmb_v10_0.vhd" \
+"../../../../hw.ip_user_files/bd/top/ip/top_ilmb_v10_0/sim/top_ilmb_v10_0.vhd" \
+"../../../../hw.ip_user_files/bd/top/ip/top_dlmb_bram_if_cntlr_0/sim/top_dlmb_bram_if_cntlr_0.vhd" \
+"../../../../hw.ip_user_files/bd/top/ip/top_ilmb_bram_if_cntlr_0/sim/top_ilmb_bram_if_cntlr_0.vhd" \
+"../../../../hw.ip_user_files/bd/top/ip/top_rst_clk_wiz_1_100M_0/sim/top_rst_clk_wiz_1_100M_0.vhd" \
+"../../../../hw.ip_user_files/bd/top/ip/top_mdm_1_0/sim/top_mdm_1_0.vhd" \
+"../../../../hw.ip_user_files/bd/top/ip/top_microblaze_0_0/sim/top_microblaze_0_0.vhd" \
+"../../../../hw.ip_user_files/bd/top/ip/top_axi_uartlite_0_0/sim/top_axi_uartlite_0_0.vhd" \
+
+# Do not sort compile order
+nosort

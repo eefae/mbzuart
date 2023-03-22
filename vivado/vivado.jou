@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Mar 13 17:41:44 2023
+# Process ID: 14785
+# Current directory: /home/fae/mbzhw_v21p2/vivado
+# Command line: vivado
+# Log file: /home/fae/mbzhw_v21p2/vivado/vivado.log
+# Journal file: /home/fae/mbzhw_v21p2/vivado/vivado.jou
+# Running On: eda, OS: Linux, CPU Frequency: 2184.478 MHz, CPU Physical cores: 32, Host memory: 540679 MB
+#-----------------------------------------------------------
+start_gui
+open_hw_manager
+close_hw_target {localhost:3121/xilinx_tcf/Xilinx/192.168.50.101:2542}
+close_hw_target {localhost:3121/xilinx_tcf/Xilinx/192.168.50.101:2542}
+connect_hw_server -allow_non_jtag
+open_hw_target
+close_hw_target {localhost:3121/xilinx_tcf/Xilinx/1234-tulA}
+disconnect_hw_server localhost:3121
+close_hw_target {localhost:3121/xilinx_tcf/Xilinx/192.168.50.101:2542}

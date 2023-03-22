@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Mar 15 22:20:02 2023
+# Process ID: 275382
+# Current directory: /home/fae/mbzuart_v21p2/vivado/hw
+# Command line: vivado -mode gui -project ./hw.xpr -source ../../scripts/xsim_openwave.tcl
+# Log file: /home/fae/mbzuart_v21p2/vivado/hw/vivado.log
+# Journal file: /home/fae/mbzuart_v21p2/vivado/hw/vivado.jou
+# Running On: eda, OS: Linux, CPU Frequency: 1500.000 MHz, CPU Physical cores: 32, Host memory: 540679 MB
+#-----------------------------------------------------------
+start_gui
+open_project ./hw.xpr
+source ../../scripts/xsim_openwave.tcl
+open_wave_config /home/fae/mbzuart_v21p2/scripts/xsim_tb.wcfg
+source tb.tcl
+update_compile_order -fileset sources_1
+write_hw_platform -fixed -force -file /home/fae/mbzuart_v21p2/vivado/hw/top_wrapper.xsa
+set_property SCOPED_TO_REF top [get_files -all -of_objects [get_fileset sources_1] {/home/fae/mbzuart_v21p2/export/sw_custom.elf}]
+set_property SCOPED_TO_CELLS { microblaze_0 } [get_files -all -of_objects [get_fileset sources_1] {/home/fae/mbzuart_v21p2/export/sw_custom.elf}]
+set_property SCOPED_TO_REF "" [get_files -all -of_objects [get_fileset sources_1] {/home/fae/mbzuart_v21p2/export/apps.elf}]
+set_property SCOPED_TO_CELLS { } [get_files -all -of_objects [get_fileset sources_1] {/home/fae/mbzuart_v21p2/export/apps.elf}]
+set_property SCOPED_TO_REF top [get_files -all -of_objects [get_fileset sim_tb] {/home/fae/mbzuart_v21p2/export/sw_custom.elf}]
+set_property SCOPED_TO_CELLS { microblaze_0 } [get_files -all -of_objects [get_fileset sim_tb] {/home/fae/mbzuart_v21p2/export/sw_custom.elf}]
+set_property SCOPED_TO_REF "" [get_files -all -of_objects [get_fileset sim_tb] {/home/fae/mbzuart_v21p2/export/apps.elf}]
+set_property SCOPED_TO_CELLS { } [get_files -all -of_objects [get_fileset sim_tb] {/home/fae/mbzuart_v21p2/export/apps.elf}]
+close_sim

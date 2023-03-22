@@ -1,0 +1,74 @@
+/*
+
+Xilinx Vitis v2021.2.0 (64-bit) [Major: 2021, Minor: 2]
+SW Build 3363750 on 2021-10-16-13:10:08
+
+Process ID (PID): 286927
+License: Customer
+
+Current time: 	Wed Mar 15 22:27:49 CST 2023
+Time zone: 	Taipei Standard Time (Asia/Taipei)
+
+OS: Ubuntu
+OS Version: 5.15.0-67-generic
+OS Architecture: amd64
+Available processors (cores): 128
+
+Display: localhost:12.0
+Screen size: 2194x1234
+Available screens: 1
+Available disk space: 361 GB
+
+Java version: 	11.0.11 64-bit
+Java home: 	/tools/xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9
+Java executable location: 	/tools/xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /tools/xilinx/Vitis/2021.2/tps/lnx64/javafx-sdk-11.0.2/lib:/tools/xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu/20:/tools/xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu:/tools/xilinx/Vitis/2021.2/lib/lnx64.o:/tools/xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib/:/tools/xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib//server:/tools/xilinx/Vitis/2021.2/lib/lnx64.o:/tools/xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu/20:/tools/xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu:/tools/xilinx/Vitis/2021.2/lib/lnx64.o:/tools/xilinx/Vitis/2021.2/tps/lnx64/python-3.8.3/lib:/tools/xilinx/Vitis/2021.2/aietools/lib/lnx64.o:/opt/xilinx/xrt/lib:/tools/xilinx/Vivado/2021.2/bin/../lnx64/tools/dot/lib:/tools/xilinx/Vitis/2021.2/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /tools/xilinx/Vitis/2021.2/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /tools/xilinx/Vitis
+
+User name: 	fae
+User home directory: /home/fae
+User working directory: /home/fae/mbzuart_v21p2/vivado/hw
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/xilinx/Vitis
+HDI_APPROOT: /tools/xilinx/Vitis/2021.2
+RDI_DATADIR: /tools/xilinx/Vitis/2021.2/data
+RDI_BINDIR: /tools/xilinx/Vitis/2021.2/bin
+
+Vitis preferences directory: /home/fae/.Xilinx/Vitis/2021.2/
+Vitis workspace directory: /home/fae/mbzuart_v21p2/vitis/workspace
+Vitis workspace log file location: /home/fae/mbzuart_v21p2/vitis/workspace/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+VITIS_HOME: /tools/xilinx/Vitis/2021.2
+VIVADO_HOME: /tools/xilinx/Vivado/2021.2
+XILINXD_LICENSE_FILE: /tools/xilinx/license/Xilinx.lic
+XILINX_DSP: 
+XILINX_HLS: /tools/xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: /tools/xilinx/Vitis/2021.2
+XILINX_SDK: /tools/xilinx/Vitis/2021.2
+XILINX_VITIS: /tools/xilinx/Vitis/2021.2
+XILINX_VIVADO: /tools/xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: /tools/xilinx/Vivado/2021.2
+XILINX_XRT: /opt/xilinx/xrt
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+selectMenuItem("File", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("Exit", "WorkbenchWindow", "MenuItem.EXIT");
+// Exiting Xilinx Vitis with a status code '0' at 3/15/23, 10:28:01 PM CST
+// Elapsed time: 00:00:15
+

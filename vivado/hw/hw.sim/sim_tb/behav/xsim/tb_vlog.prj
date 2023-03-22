@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../hw.gen/sources_1/bd/top/ipshared/62b6" --include "../../../../hw.gen/sources_1/bd/top/ipshared/ec67/hdl" \
+"../../../../hw.ip_user_files/bd/top/ip/top_lmb_bram_0/sim/top_lmb_bram_0.v" \
+"../../../../hw.ip_user_files/bd/top/ip/top_clk_wiz_1_0/top_clk_wiz_1_0_clk_wiz.v" \
+"../../../../hw.ip_user_files/bd/top/ip/top_clk_wiz_1_0/top_clk_wiz_1_0.v" \
+"../../../../hw.ip_user_files/bd/top/ip/top_xbar_0/sim/top_xbar_0.v" \
+"../../../../hw.ip_user_files/bd/top/sim/top.v" \
+"../../../../hw.srcs/sources_1/imports/hdl/clkgen.v" \
+"../../../../hw.srcs/sources_1/imports/top_wrapper.v" \
+"../../../../../../src/hdl/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

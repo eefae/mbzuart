@@ -1,0 +1,306 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:47:39 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 119047
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Mar 15 16:21:45 CST 2023
+Time zone: 	Taipei Standard Time (Asia/Taipei)
+
+OS: Ubuntu
+OS Version: 5.15.0-67-generic
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: localhost:12.0
+Screen size: 2194x1234
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/eda/xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9
+Java executable: 	/eda/xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	demo
+User home directory: /home/demo
+User working directory: /home/demo/nfs/haps/semi/hapsmbzsoc_v21p2/vivado/hw
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /eda/xilinx/Vivado
+HDI_APPROOT: /eda/xilinx/Vivado/2021.2
+RDI_DATADIR: /eda/xilinx/Vivado/2021.2/data
+RDI_BINDIR: /eda/xilinx/Vivado/2021.2/bin
+
+Vivado preferences file: /home/demo/.Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: /home/demo/.Xilinx/Vivado/2021.2/
+Vivado layouts directory: /home/demo/.Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	/eda/xilinx/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/demo/nfs/haps/semi/hapsmbzsoc_v21p2/vivado/hw/vivado.log
+Vivado journal file: 	/home/demo/nfs/haps/semi/hapsmbzsoc_v21p2/vivado/hw/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-119047-cx6
+
+Xilinx Environment Variables
+----------------------------
+VITIS_HOME: /eda/xilinx/Vitis/2021.2
+VIVADO_HOME: /eda/xilinx/Vivado/2021.2
+XILINX: /eda/xilinx/Vivado/2021.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: /home/demo/nfs/license/license/Xilinx.lic
+XILINX_DSP: /eda/xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: /eda/xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: /eda/xilinx/Vivado/2021.2
+XILINX_SDK: /eda/xilinx/Vitis/2021.2
+XILINX_VITIS: /eda/xilinx/Vitis/2021.2
+XILINX_VIVADO: /eda/xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: /eda/xilinx/Vivado/2021.2
+
+
+GUI allocated memory:	308 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 2,123 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 98 MB (+100490kb) [00:00:03]
+// [Engine Memory]: 1,985 MB (+1929554kb) [00:00:03]
+// Opening Vivado Project: ./hw.xpr. Version: Vivado v2021.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project ./hw.xpr 
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 125 MB (+22645kb) [00:00:06]
+// [Engine Memory]: 2,111 MB (+27981kb) [00:00:06]
+// WARNING: HEventQueue.dispatchEvent() is taking  1952 ms.
+// Tcl Message: open_project ./hw.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/demo/nfs/haps/semi/hapsmbz_v21p2/vivado/hw' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/eda/xilinx/Vivado/2021.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,092 MB. GUI used memory: 71 MB. Current time: 3/15/23, 4:21:45 PM CST
+// Project name: hw; location: /home/demo/nfs/haps/semi/hapsmbzsoc_v21p2/vivado/hw; part: xcvu19p-fsva3824-2-e
+dismissDialog("Open Project"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 46 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_wrapper (top_wrapper.v)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_wrapper (top_wrapper.v), top_i : top (top.bd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_wrapper (top_wrapper.v), top_i : top (top.bd)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {/home/demo/nfs/haps/semi/hapsmbzsoc_v21p2/vivado/hw/hw.srcs/sources_1/bd/top/top.bd} 
+// Tcl Message: Reading block design file </home/demo/nfs/haps/semi/hapsmbzsoc_v21p2/vivado/hw/hw.srcs/sources_1/bd/top/top.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1048 ms.
+// JavaFX intialization before: 1678868556145
+// [Engine Memory]: 2,436 MB (+230999kb) [00:00:59]
+// JavaFX initialization after: 1678868556356
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Block Design"); // bA
+// [Engine Memory]: 2,597 MB (+40773kb) [00:01:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,611 MB. GUI used memory: 107 MB. Current time: 3/15/23, 4:22:39 PM CST
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 645, 472, 1466, 690, false, false, false, true, false); // hx - Popup Trigger
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // D
+// [GUI Memory]: 142 MB (+11315kb) [00:01:10]
+// Elapsed time: 13 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField
+// [GUI Memory]: 162 MB (+13650kb) [00:01:54]
+// Elapsed time: 51 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "uart"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1, "AXI Uartlite", 0, false); // L
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1, "AXI Uartlite", 0, false); // L
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1); // L
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1, "AXI Uartlite", 0, false, false, false, false, false, true); // L - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_uartlite:2.0 axi_uartlite_0 
+// Tcl Message: endgroup 
+// [Engine Memory]: 2,731 MB (+4411kb) [00:02:15]
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // g
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (2 out of 2 selected)]", 0, true, true, ui.utils.collection.couples.TriState.True); // ac - Node
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Run Connection Automation"); // O
+// TclEventType: XGUI_UPDATE_GUI_ELEMENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_1/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_1/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_uartlite_0/S_AXI} ddr_seg {Auto} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_uartlite_0/S_AXI] 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: XGUI_UPDATE_GUI_ELEMENT
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_ADD_OBJECT
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: XGUI_RESET_GUI_ELEMENT
+// Tcl Message: Slave segment '/axi_uartlite_0/S_AXI/Reg' is being assigned into address space '/microblaze_0/Data' at <0x4060_0000 [ 64K ]>. 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:board -config { Manual_Source {Auto}}  [get_bd_intf_pins axi_uartlite_0/UART] 
+// Tcl Message: INFO: [BoardRule 102-8] create_bd_intf_port -mode Master -vlnv xilinx.com:interface:uart_rtl:1.0 uart_rtl_0 INFO: [BoardRule 102-9] connect_bd_intf_net /uart_rtl_0 /axi_uartlite_0/UART 
+// Tcl Message: endgroup 
+dismissDialog("Run Connection Automation"); // bA
+// HMemoryUtils.trashcanNow. Engine heap size: 2,717 MB. GUI used memory: 100 MB. Current time: 3/15/23, 4:23:59 PM CST
+// Elapsed time: 26 seconds
+selectButton(PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN, "save_rsb_design"); // D
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : </home/demo/nfs/haps/semi/hapsmbzsoc_v21p2/vivado/hw/hw.srcs/sources_1/bd/top/top.bd>  Wrote  : </home/demo/nfs/haps/semi/hapsmbzsoc_v21p2/vivado/hw/hw.srcs/sources_1/bd/top/ui/bd_2ae56375.ui>  
+// Elapsed time: 16 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_BLOCK_DESIGN, "Open Block Design"); // al
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ag
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_BLOCK_DESIGN, "Open Block Design"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // al
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenuItem(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "Validate Design"); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PARAM_PROP
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: validate_bd_design 
+// Tcl Message: INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_1 clk_wiz propagate 
+selectButton("OptionPane.button", "OK"); // JButton
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ag
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ag
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // al
+selectMenuItem((HResource) null, "Launch Vitis IDE"); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag
+// 'X' command handler elapsed time: 3 seconds
+dismissDialog("Launch Vitis IDE"); // bA
+// Elapsed time: 37 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 862, 116); // dT
+// Elapsed time: 15 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 507, 118); // dT
+// Elapsed time: 11 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // al
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // al
+selectMenuItem(PAResourceCommand.PACommandNames_EXIT, "Exit"); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+// Run Command: PAResourceCommand.PACommandNames_EXIT
+// 'aG' command handler elapsed time: 8 seconds
+dismissDialog("Save Project"); // al
+closeMainWindow("hw - [/home/demo/nfs/haps/semi/hapsmbzsoc_v21p2/vivado/hw/hw.xpr] - Vivado 2021.2"); // bb
+// Run Command: PAResourceCommand.PACommandNames_EXIT

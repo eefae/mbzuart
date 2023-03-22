@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,788.130 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,419.131 ns"></ZoomEndTime>
+      <Cursor1Time time="3,087.630 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="205"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject type="group" fp_name="group974">
+      <obj_property name="label">clkgen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb/clkgen/clk_p">
+         <obj_property name="ElementShortName">clk_p</obj_property>
+         <obj_property name="ObjectShortName">clk_p</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/clkgen/clk_n">
+         <obj_property name="ElementShortName">clk_n</obj_property>
+         <obj_property name="ObjectShortName">clk_n</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/clkgen/reset_p">
+         <obj_property name="ElementShortName">reset_p</obj_property>
+         <obj_property name="ObjectShortName">reset_p</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/clkgen/reset_n">
+         <obj_property name="ElementShortName">reset_n</obj_property>
+         <obj_property name="ObjectShortName">reset_n</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/clkgen/ClockPeriod">
+         <obj_property name="ElementShortName">ClockPeriod[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ClockPeriod[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group290">
+      <obj_property name="label">UART</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/S_AXI_ACLK">
+         <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_TX_I/Write_TX_FIFO">
+         <obj_property name="ElementShortName">Write_TX_FIFO</obj_property>
+         <obj_property name="ObjectShortName">Write_TX_FIFO</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_TX_I/TX_Data">
+         <obj_property name="ElementShortName">TX_Data[0:7]</obj_property>
+         <obj_property name="ObjectShortName">TX_Data[0:7]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_TX_I/TX_Data">
+         <obj_property name="ElementShortName">TX_Data[0:7]</obj_property>
+         <obj_property name="ObjectShortName">TX_Data[0:7]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_RX_I/RX_Data">
+         <obj_property name="ElementShortName">RX_Data[0:7]</obj_property>
+         <obj_property name="ObjectShortName">RX_Data[0:7]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/S_AXI_AWADDR">
+         <obj_property name="ElementShortName">S_AXI_AWADDR[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWADDR[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/S_AXI_WDATA">
+         <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/S_AXI_ARADDR">
+         <obj_property name="ElementShortName">S_AXI_ARADDR[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARADDR[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/axi_uartlite_0/U0/AXI_LITE_IPIF_I/S_AXI_RDATA">
+         <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group973">
+      <obj_property name="label">DUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0/Instr_Addr">
+         <obj_property name="ElementShortName">Instr_Addr[0:31]</obj_property>
+         <obj_property name="ObjectShortName">Instr_Addr[0:31]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0/Data_Addr">
+         <obj_property name="ElementShortName">Data_Addr[0:31]</obj_property>
+         <obj_property name="ObjectShortName">Data_Addr[0:31]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0/Write_Strobe">
+         <obj_property name="ElementShortName">Write_Strobe</obj_property>
+         <obj_property name="ObjectShortName">Write_Strobe</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0/Read_Strobe">
+         <obj_property name="ElementShortName">Read_Strobe</obj_property>
+         <obj_property name="ObjectShortName">Read_Strobe</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0/M_AXI_DP_AWADDR">
+         <obj_property name="ElementShortName">M_AXI_DP_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0/M_AXI_DP_RDATA">
+         <obj_property name="ElementShortName">M_AXI_DP_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0/M_AXI_DP_ARVALID">
+         <obj_property name="ElementShortName">M_AXI_DP_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_ARVALID</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0/M_AXI_DP_WDATA">
+         <obj_property name="ElementShortName">M_AXI_DP_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0/M_AXI_DP_WSTRB">
+         <obj_property name="ElementShortName">M_AXI_DP_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0/M_AXI_DP_ARADDR">
+         <obj_property name="ElementShortName">M_AXI_DP_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_DP_ARADDR[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group975">
+      <obj_property name="label">local_memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/LMB_Clk">
+         <obj_property name="ElementShortName">LMB_Clk</obj_property>
+         <obj_property name="ObjectShortName">LMB_Clk</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/ILMB_abus">
+         <obj_property name="ElementShortName">ILMB_abus[0:31]</obj_property>
+         <obj_property name="ObjectShortName">ILMB_abus[0:31]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/ILMB_addrstrobe">
+         <obj_property name="ElementShortName">ILMB_addrstrobe</obj_property>
+         <obj_property name="ObjectShortName">ILMB_addrstrobe</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/ILMB_readdbus">
+         <obj_property name="ElementShortName">ILMB_readdbus[0:31]</obj_property>
+         <obj_property name="ObjectShortName">ILMB_readdbus[0:31]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_abus">
+         <obj_property name="ElementShortName">DLMB_abus[0:31]</obj_property>
+         <obj_property name="ObjectShortName">DLMB_abus[0:31]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_addrstrobe">
+         <obj_property name="ElementShortName">DLMB_addrstrobe</obj_property>
+         <obj_property name="ObjectShortName">DLMB_addrstrobe</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_readdbus">
+         <obj_property name="ElementShortName">DLMB_readdbus[0:31]</obj_property>
+         <obj_property name="ObjectShortName">DLMB_readdbus[0:31]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_writedbus">
+         <obj_property name="ElementShortName">DLMB_writedbus[0:31]</obj_property>
+         <obj_property name="ObjectShortName">DLMB_writedbus[0:31]</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group913">
+         <obj_property name="label">DLMB_LSB</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_writedbus[0]">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_writedbus[1]">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">[1]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_writedbus[2]">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">[2]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_writedbus[3]">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">[3]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_writedbus[4]">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">[4]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_writedbus[5]">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">[5]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_writedbus[6]">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">[6]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_local_memory/DLMB_writedbus[7]">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">[7]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1220">
+      <obj_property name="label">MDM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Write_TX_FIFO">
+         <obj_property name="ElementShortName">Write_TX_FIFO</obj_property>
+         <obj_property name="ObjectShortName">Write_TX_FIFO</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/use_uart/TX_FIFO_I/Data_In">
+         <obj_property name="ElementShortName">Data_In[0:7]</obj_property>
+         <obj_property name="ObjectShortName">Data_In[0:7]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/use_uart/TX_FIFO_I/Data_Out">
+         <obj_property name="ElementShortName">Data_Out[0:7]</obj_property>
+         <obj_property name="ObjectShortName">Data_Out[0:7]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/use_uart/TX_FIFO_I/FIFO_Read">
+         <obj_property name="ElementShortName">FIFO_Read</obj_property>
+         <obj_property name="ObjectShortName">FIFO_Read</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/TX_Data">
+         <obj_property name="ElementShortName">TX_Data[0:7]</obj_property>
+         <obj_property name="ObjectShortName">TX_Data[0:7]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/TX_Data">
+         <obj_property name="ElementShortName">TX_Data[0:7]</obj_property>
+         <obj_property name="ObjectShortName">TX_Data[0:7]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/RX_Data">
+         <obj_property name="ElementShortName">RX_Data[0:7]</obj_property>
+         <obj_property name="ObjectShortName">RX_Data[0:7]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group984">
+      <obj_property name="label">axi_periph</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_axi_periph/M00_ACLK">
+         <obj_property name="ElementShortName">M00_ACLK</obj_property>
+         <obj_property name="ObjectShortName">M00_ACLK</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb/DUT/top_i/microblaze_0_axi_periph/M00_ARESETN">
+         <obj_property name="ElementShortName">M00_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">M00_ARESETN</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_axi_periph/M00_AXI_araddr">
+         <obj_property name="ElementShortName">M00_AXI_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_axi_periph/M00_AXI_araddr">
+         <obj_property name="ElementShortName">M00_AXI_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_axi_periph/M00_AXI_awaddr">
+         <obj_property name="ElementShortName">M00_AXI_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_axi_periph/M00_AXI_wdata">
+         <obj_property name="ElementShortName">M00_AXI_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_axi_periph/M00_AXI_rdata">
+         <obj_property name="ElementShortName">M00_AXI_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M00_AXI_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_axi_periph/S00_AXI_wdata">
+         <obj_property name="ElementShortName">S00_AXI_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_axi_periph/S00_AXI_araddr">
+         <obj_property name="ElementShortName">S00_AXI_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_axi_periph/S00_AXI_rdata">
+         <obj_property name="ElementShortName">S00_AXI_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb/DUT/top_i/microblaze_0_axi_periph/S00_AXI_awaddr">
+         <obj_property name="ElementShortName">S00_AXI_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S00_AXI_awaddr[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

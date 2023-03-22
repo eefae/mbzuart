@@ -1,0 +1,14 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /tools/xilinx/Vivado/2021.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_20 -L blk_mem_gen_v8_4_5 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_22 -L microblaze_v11_0_8 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_25 -L fifo_generator_v13_2_6 -L axi_data_fifo_v2_1_24 -L axi_crossbar_v2_1_26 -L lib_pkg_v1_0_2 -L lib_srl_fifo_v1_0_2 -L axi_uartlite_v2_0_29 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'interrupt' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:768]
+WARNING: [VRFC 10-5021] port 'interrupt' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:796]
+WARNING: [VRFC 10-5021] port 'interrupt_ack' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:826]
+WARNING: [VRFC 10-5021] port 'peripheral_reset' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:964]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:422]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:468]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

@@ -1,0 +1,126 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Mar 15 22:25:17 2023
+# Process ID: 283748
+# Current directory: /home/fae/mbzuart_v21p2/vivado/hw
+# Command line: vivado -mode gui -project ./hw.xpr -source ../../scripts/xsim_openwave.tcl
+# Log file: /home/fae/mbzuart_v21p2/vivado/hw/vivado.log
+# Journal file: /home/fae/mbzuart_v21p2/vivado/hw/vivado.jou
+# Running On: eda, OS: Linux, CPU Frequency: 1500.000 MHz, CPU Physical cores: 32, Host memory: 540679 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at /tools/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project ./hw.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/xilinx/Vivado/2021.2/data/ip'.
+source ../../scripts/xsim_openwave.tcl
+# set_property target_simulator XSim [current_project]
+# add_files -fileset sim_tb -norecurse ../../export/sw_custom.elf
+WARNING: [filemgmt 56-12] File '/home/fae/mbzuart_v21p2/export/sw_custom.elf' cannot be added to the project because it already exists in the project, skipping this file
+# set_property SCOPED_TO_REF top [get_files -all -of_objects [get_fileset sim_tb] {sw_custom.elf}]
+# set_property SCOPED_TO_CELLS { microblaze_0 } [get_files -all -of_objects [get_fileset sim_tb] {sw_custom.elf}]
+# launch_simulation -simset [get_filesets sim_tb ]
+Command: launch_simulation  -simset sim_tb
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+Generating merged BMM file for the design top 'tb'...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/fae/mbzuart_v21p2/vivado/hw/hw.sim/sim_tb/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_tb'
+INFO: [SIM-utils-72] Using boost library from '/tools/xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/xilinx/Vivado/2021.2/data/xsim/xsim.ini' copied to run dir:'/home/fae/mbzuart_v21p2/vivado/hw/hw.sim/sim_tb/behav/xsim'
+INFO: [SIM-utils-50] Design contains embedded sources, generating MEM files for simulation...
+Generating merged BMM file for the design top 'tb'...
+Generating merged BMM file for the design top 'tb'...
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_tb'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_tb'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/fae/mbzuart_v21p2/vivado/hw/hw.sim/sim_tb/behav/xsim'
+xvlog --incr --relax -prj tb_vlog.prj
+xvhdl --incr --relax -prj tb_vhdl.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/fae/mbzuart_v21p2/vivado/hw/hw.sim/sim_tb/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_20 -L blk_mem_gen_v8_4_5 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_22 -L microblaze_v11_0_8 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_25 -L fifo_generator_v13_2_6 -L axi_data_fifo_v2_1_24 -L axi_crossbar_v2_1_26 -L lib_pkg_v1_0_2 -L lib_srl_fifo_v1_0_2 -L axi_uartlite_v2_0_29 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /tools/xilinx/Vivado/2021.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_20 -L blk_mem_gen_v8_4_5 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_22 -L microblaze_v11_0_8 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_25 -L fifo_generator_v13_2_6 -L axi_data_fifo_v2_1_24 -L axi_crossbar_v2_1_26 -L lib_pkg_v1_0_2 -L lib_srl_fifo_v1_0_2 -L axi_uartlite_v2_0_29 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'interrupt' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:768]
+WARNING: [VRFC 10-5021] port 'interrupt' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:796]
+WARNING: [VRFC 10-5021] port 'interrupt_ack' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:826]
+WARNING: [VRFC 10-5021] port 'peripheral_reset' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:964]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:422]
+WARNING: [VRFC 10-5021] port 'lmb_rst' is not connected on this instance [/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v:468]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/fae/mbzuart_v21p2/vivado/hw/hw.sim/sim_tb/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_tb:Functional:tb} -tclbatch {tb.tcl} -protoinst "protoinst_files/top.protoinst" -view {/home/fae/mbzuart_v21p2/scripts/xsim_tb.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/top.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//axi_uartlite_0/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//mdm_1/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0/M_AXI_DP
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/m00_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/m00_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/m01_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/m01_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/s00_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/s00_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/xbar/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/xbar/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /tb/DUT/top_i//microblaze_0_axi_periph/xbar/S00_AXI
+Time resolution is 1 ps
+open_wave_config /home/fae/mbzuart_v21p2/scripts/xsim_tb.wcfg
+source tb.tcl
+## current_wave_config
+Block Memory Generator module tb.DUT.top_i.microblaze_0_local_memory.lmb_bram.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 9017.555 ; gain = 1072.449 ; free physical = 495183 ; free virtual = 507559
+# open_wave_config ../../scripts/xsim_tb.wcfg
+# run 5 us
+Warning: [Unisim MMCME4_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance tb.DUT.top_i.clk_wiz_1.inst.mmcme4_adv_inst 
+update_compile_order -fileset sources_1
+run all
+run: Time (s): cpu = 00:00:28 ; elapsed = 00:00:54 . Memory (MB): peak = 9017.555 ; gain = 0.000 ; free physical = 494992 ; free virtual = 507453
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 132008 KB (Peak: 179976 KB), Simulation CPU Usage: 54460 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 15 22:28:22 2023...

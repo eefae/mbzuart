@@ -1,0 +1,12 @@
+
+{ 
+    crc :  281596436802184420  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 8 -L xil_defaultlib -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_20 -L blk_mem_gen_v8_4_5 -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_22 -L microblaze_v11_0_8 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_25 -L fifo_generator_v13_2_6 -L axi_data_fifo_v2_1_24 -L axi_crossbar_v2_1_26 -L lib_pkg_v1_0_2 -L lib_srl_fifo_v1_0_2 -L axi_uartlite_v2_0_29 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl" , 
+    buildDate : "Oct 19 2021" , 
+    buildTime : "02:56:52" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/tb_behav/xsimk\"   \"xsim.dir/tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/tb_behav/obj/xsim_1.lnx64.o\" \"xsim.dir/tb_behav/obj/xsim_2.lnx64.o\" \"xsim.dir/tb_behav/obj/xsim_3.lnx64.o\" \"xsim.dir/tb_behav/obj/xsim_4.lnx64.o\" \"xsim.dir/tb_behav/obj/xsim_5.lnx64.o\" -L\"/tools/xilinx/Vivado/2021.2/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

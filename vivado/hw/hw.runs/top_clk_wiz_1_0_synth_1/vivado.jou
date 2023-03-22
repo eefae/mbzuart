@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Mar  8 18:57:42 2023
+# Process ID: 498483
+# Current directory: /home/fae/mbzhw_v21p2/vivado/hw/hw.runs/top_clk_wiz_1_0_synth_1
+# Command line: vivado -log top_clk_wiz_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_clk_wiz_1_0.tcl
+# Log file: /home/fae/mbzhw_v21p2/vivado/hw/hw.runs/top_clk_wiz_1_0_synth_1/top_clk_wiz_1_0.vds
+# Journal file: /home/fae/mbzhw_v21p2/vivado/hw/hw.runs/top_clk_wiz_1_0_synth_1/vivado.jou
+# Running On: eda, OS: Linux, CPU Frequency: 2260.584 MHz, CPU Physical cores: 32, Host memory: 540679 MB
+#-----------------------------------------------------------
+source top_clk_wiz_1_0.tcl -notrace

@@ -1,0 +1,103 @@
+/*
+
+Xilinx Vitis v2021.2.0 (64-bit) [Major: 2021, Minor: 2]
+SW Build 3363750 on 2021-10-16-13:10:08
+
+Process ID (PID): 114547
+License: Customer
+
+Current time: 	Wed Mar 15 15:52:42 CST 2023
+Time zone: 	Taipei Standard Time (Asia/Taipei)
+
+OS: Ubuntu
+OS Version: 5.15.0-67-generic
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: localhost:10.0
+Screen size: 2194x1234
+Available screens: 1
+Available disk space: 114 GB
+
+Java version: 	11.0.11 64-bit
+Java home: 	/eda/xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9
+Java executable location: 	/eda/xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /eda/xilinx/Vitis/2021.2/tps/lnx64/javafx-sdk-11.0.2/lib:/eda/xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu/20:/eda/xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu:/eda/xilinx/Vitis/2021.2/lib/lnx64.o:/eda/xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib/:/eda/xilinx/Vitis/2021.2/tps/lnx64/jre11.0.11_9/lib//server:/eda/xilinx/Vitis/2021.2/lib/lnx64.o:/eda/xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu/20:/eda/xilinx/Vitis/2021.2/lib/lnx64.o/Ubuntu:/eda/xilinx/Vitis/2021.2/lib/lnx64.o:/eda/xilinx/Vitis/2021.2/tps/lnx64/python-3.8.3/lib:/eda/xilinx/Vitis/2021.2/aietools/lib/lnx64.o:/eda/xilinx/Vivado/2021.2/bin/../lnx64/tools/dot/lib:/eda/xilinx/Vitis/2021.2/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /eda/xilinx/Vitis/2021.2/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /eda/xilinx/Vitis
+
+User name: 	demo
+User home directory: /home/demo
+User working directory: /home/demo/nfs/haps/semi/hapsmbz_v21p2/vivado/hw
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /eda/xilinx/Vitis
+HDI_APPROOT: /eda/xilinx/Vitis/2021.2
+RDI_DATADIR: /eda/xilinx/Vitis/2021.2/data
+RDI_BINDIR: /eda/xilinx/Vitis/2021.2/bin
+
+Vitis preferences directory: /home/demo/.Xilinx/Vitis/2021.2/
+Vitis workspace directory: /home/demo/nfs/haps/semi/hapsmbz_v21p2/vitis/workspace
+Vitis workspace log file location: /home/demo/nfs/haps/semi/hapsmbz_v21p2/vitis/workspace/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+VITIS_HOME: /eda/xilinx/Vitis/2021.2
+VIVADO_HOME: /eda/xilinx/Vivado/2021.2
+XILINXD_LICENSE_FILE: /home/demo/nfs/license/license/Xilinx.lic
+XILINX_DSP: 
+XILINX_HLS: /eda/xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: /eda/xilinx/Vitis/2021.2
+XILINX_SDK: /eda/xilinx/Vitis/2021.2
+XILINX_VITIS: /eda/xilinx/Vitis/2021.2
+XILINX_VIVADO: /eda/xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: /eda/xilinx/Vivado/2021.2
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+setTextField("test", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Text.APPLICATION_PROJECT_NAME");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Domain)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Finish", "New Application Project (Templates)", "NewAppProjectWizard", "Button.FINISH");
+activateView("Welcome", "ViewIntroAdapterPart", "CTabItem.WELCOME");
+selectTreeTable("test_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Build", "Assistant", "WorkbenchWindow", "MenuItem.BUILD");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("test_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectMenuItem("Run", "Assistant", "WorkbenchWindow", "MenuItem.RUN");
+selectMenuItem("Run Configurations", "test_system", "WorkbenchWindow", "MenuItem.RUN_CONFIGURATIONS");
+selectButton("Close", "Run Configurations", "LaunchConfigurationsDialog", "Button.CLOSE");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("test_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Add Application Project", "Explorer", "ProjectExplorer", "MenuItem.ADD_APPLICATION");
+setTextField("apps", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Text.APPLICATION_PROJECT_NAME");
+selectButton("Cancel", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.CANCEL");
+activateView("Assistant", "SDXAssistantView", "CTabItem.ASSISTANT");
+selectTreeTable("test_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectTreeTable("test", "test_system", EventType.POPUP_TRIGGER_CLICK, "Assistant", "SDXAssistantView", "TreeViewer.AssistantContentProvider");
+selectToolBarMenuButton("Run", "test", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run As", "Assistant", "SDXAssistantView", "MenuItem.RUN_AS");
+selectMenuItem("2 Launch SW Emulator", "test", "WorkbenchWindow", "MenuItem.2_LAUNCH_SW_EMULATOR");
+selectButton("OK", "Emulation", "MessageDialog", "Button.OK");
+selectToolBarMenuButton("Run", "test", "WorkbenchWindow", "ToolItem.RUN");
+selectMenuItem("Run As", "Assistant", "SDXAssistantView", "MenuItem.RUN_AS");
+selectMenuItem("2 Launch SW Emulator", "test", "WorkbenchWindow", "MenuItem.2_LAUNCH_SW_EMULATOR");
+selectButton("OK", "Emulation", "MessageDialog", "Button.OK");
+selectMenuItem("File", "test", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("Exit", "test", "WorkbenchWindow", "MenuItem.EXIT");
+// Exiting Xilinx Vitis with a status code '0' at 3/15/23, 3:55:18 PM CST
+// Elapsed time: 00:02:36
+

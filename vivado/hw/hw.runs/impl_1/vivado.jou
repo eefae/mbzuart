@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Mar 17 17:44:47 2023
+# Process ID: 332251
+# Current directory: /home/fae/mbzuart_v21p2/vivado/hw/hw.runs/impl_1
+# Command line: vivado -log top_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_wrapper.tcl -notrace
+# Log file: /home/fae/mbzuart_v21p2/vivado/hw/hw.runs/impl_1/top_wrapper.vdi
+# Journal file: /home/fae/mbzuart_v21p2/vivado/hw/hw.runs/impl_1/vivado.jou
+# Running On: eda, OS: Linux, CPU Frequency: 1500.000 MHz, CPU Physical cores: 32, Host memory: 540679 MB
+#-----------------------------------------------------------
+source top_wrapper.tcl -notrace

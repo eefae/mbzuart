@@ -1,0 +1,21 @@
+0.7
+2020.2
+Oct 19 2021
+02:56:52
+/home/fae/mbzuart_v21p2/src/hdl/tb.v,1678868476,verilog,,,,tb,,,../../../../hw.gen/sources_1/bd/top/ipshared/62b6;../../../../hw.gen/sources_1/bd/top/ipshared/ec67/hdl,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_axi_uartlite_0_0/sim/top_axi_uartlite_0_0.vhd,1678869022,vhdl,,,,top_axi_uartlite_0_0,,,,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_clk_wiz_1_0/top_clk_wiz_1_0.v,1678868476,verilog,,/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_xbar_0/sim/top_xbar_0.v,,top_clk_wiz_1_0,,,../../../../hw.gen/sources_1/bd/top/ipshared/62b6;../../../../hw.gen/sources_1/bd/top/ipshared/ec67/hdl,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_clk_wiz_1_0/top_clk_wiz_1_0_clk_wiz.v,1678868476,verilog,,/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_clk_wiz_1_0/top_clk_wiz_1_0.v,,top_clk_wiz_1_0_clk_wiz,,,../../../../hw.gen/sources_1/bd/top/ipshared/62b6;../../../../hw.gen/sources_1/bd/top/ipshared/ec67/hdl,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_dlmb_bram_if_cntlr_0/sim/top_dlmb_bram_if_cntlr_0.vhd,1678868476,vhdl,,,,top_dlmb_bram_if_cntlr_0,,,,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_dlmb_v10_0/sim/top_dlmb_v10_0.vhd,1678868476,vhdl,,,,top_dlmb_v10_0,,,,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_ilmb_bram_if_cntlr_0/sim/top_ilmb_bram_if_cntlr_0.vhd,1678868476,vhdl,,,,top_ilmb_bram_if_cntlr_0,,,,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_ilmb_v10_0/sim/top_ilmb_v10_0.vhd,1678868476,vhdl,,,,top_ilmb_v10_0,,,,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_lmb_bram_0/sim/top_lmb_bram_0.v,1678868476,verilog,,/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_clk_wiz_1_0/top_clk_wiz_1_0_clk_wiz.v,,top_lmb_bram_0,,,../../../../hw.gen/sources_1/bd/top/ipshared/62b6;../../../../hw.gen/sources_1/bd/top/ipshared/ec67/hdl,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_mdm_1_0/sim/top_mdm_1_0.vhd,1678868476,vhdl,,,,top_mdm_1_0,,,,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_microblaze_0_0/sim/top_microblaze_0_0.vhd,1678868476,vhdl,,,,top_microblaze_0_0,,,,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_rst_clk_wiz_1_100M_0/sim/top_rst_clk_wiz_1_100M_0.vhd,1678868476,vhdl,,,,top_rst_clk_wiz_1_100m_0,,,,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/ip/top_xbar_0/sim/top_xbar_0.v,1678869022,verilog,,/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v,,top_xbar_0,,,../../../../hw.gen/sources_1/bd/top/ipshared/62b6;../../../../hw.gen/sources_1/bd/top/ipshared/ec67/hdl,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.ip_user_files/bd/top/sim/top.v,1678869022,verilog,,/home/fae/mbzuart_v21p2/vivado/hw/hw.srcs/sources_1/imports/hdl/clkgen.v,,m00_couplers_imp_FAIRLI;m01_couplers_imp_1T2T38Z;microblaze_0_local_memory_imp_1PW29UC;s00_couplers_imp_17UPS7G;top;top_microblaze_0_axi_periph_0,,,../../../../hw.gen/sources_1/bd/top/ipshared/62b6;../../../../hw.gen/sources_1/bd/top/ipshared/ec67/hdl,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.sim/sim_tb/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.srcs/sources_1/imports/hdl/clkgen.v,1678868476,verilog,,/home/fae/mbzuart_v21p2/vivado/hw/hw.srcs/sources_1/imports/top_wrapper.v,,clkgen,,,../../../../hw.gen/sources_1/bd/top/ipshared/62b6;../../../../hw.gen/sources_1/bd/top/ipshared/ec67/hdl,,,,,
+/home/fae/mbzuart_v21p2/vivado/hw/hw.srcs/sources_1/imports/top_wrapper.v,1678868476,verilog,,/home/fae/mbzuart_v21p2/src/hdl/tb.v,,top_wrapper,,,../../../../hw.gen/sources_1/bd/top/ipshared/62b6;../../../../hw.gen/sources_1/bd/top/ipshared/ec67/hdl,,,,,

@@ -1,0 +1,67 @@
+#!/usr/bin/expect --
+
+## user inputs args
+set desIP       [lindex $argv 0]
+set desUID      [lindex $argv 1]
+set desPID      [lindex $argv 2]
+
+#if { $desIP == "" } { set desIP "192.168.50.100" }
+#if { $desUID == "" } { set desUID "fae" }
+#if { $desPID == "" } { set desPID "demo!@#" }
+
+if { $desIP == "" } { set desIP "220.128.132.222" }
+if { $desUID == "" } { set desUID "haps" }
+if { $desPID == "" } { set desPID "haps!@#" }
+
+set srcDIR "./autotest"
+set desDIR "~/autotest"
+set desLOG "uart.log"
+
+## common args
+set PROMPT "$ "
+set timeout 60
+#set timeout -1
+
+puts "+----------------------------------------------------"
+puts "| ### Makefile -> autotest.exp -> scp"
+puts "| ### -> autotest.sh -> autotest.env -> autotest.tcl"
+puts "| ### $desUID@$desIP:$desDIR (password: $desPID)"
+puts "+----------------------------------------------------"
+
+set CMD "put"
+switch -- $CMD {
+	put {
+		spawn scp $srcDIR/autotest.sh $desUID@$desIP:$desDIR
+		expect {password:} {send "$desPID\r"; exp_continue} eof
+		spawn scp $srcDIR/autotest.tcl $desUID@$desIP:$desDIR
+		expect {password:} {send "$desPID\r"; exp_continue} eof
+		spawn scp $srcDIR/autotest.elf $desUID@$desIP:$desDIR
+		expect {password:} {send "$desPID\r"; exp_continue} eof
+		spawn scp $srcDIR/autotest.env $desUID@$desIP:$desDIR
+		expect {password:} {send "$desPID\r"; exp_continue} eof
+
+	} get {
+		spawn scp $desUID@$desIP:$desDIR/autotest.elf $srcDIR
+		expect {password:} {send "$desPID\r"; exp_continue} eof
+	}
+}
+
+spawn bash -c "ssh $desUID@$desIP -X"
+expect "yes/no" {
+	send "yes\r"
+	expect "*assword" {send "$desPID\r"}
+	} "*assword" {send "$desPID\r"}
+
+expect "$PROMPT" {send "cd ~/autotest\r"} 
+expect "$PROMPT" {send "ls -lh autotest.*\r"} 
+expect "$PROMPT" {send "chmod +x ./autotest.sh\r"} 
+expect "$PROMPT" {send "./autotest.sh\r"} 
+expect "continue" {send "\r"} 
+expect "$PROMPT" {send "tail -n 10 ./$desLOG\r"} 
+expect "$PROMPT" {send "exit\r"} 
+
+spawn scp $desUID@$desIP:$desDIR/uart.log $srcDIR
+expect "*assword:" {send "$desPID\r"; exp_continue} eof	
+
+
+

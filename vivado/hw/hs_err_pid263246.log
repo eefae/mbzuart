@@ -1,0 +1,22 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/tools/xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0xbefecb) [0x7fdbf3c76ecb]
+/tools/xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(JVM_handle_linux_signal+0xd1) [0x7fdbf3c7dc81]
+/tools/xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0xbead23) [0x7fdbf3c71d23]
+/tools/xilinx/Vivado/2021.2/tps/lnx64/javafx-sdk-11.0.2/lib/libjfxwebkit.so(+0x205ae18) [0x7fdb8e8c1e18]
+/lib/x86_64-linux-gnu/libc.so.6(+0x43090) [0x7fdc50ba1090]
+/lib/x86_64-linux-gnu/libc.so.6(+0x46876) [0x7fdc50ba4876]
+/lib/x86_64-linux-gnu/libc.so.6(on_exit+0) [0x7fdc50ba4a60]
+/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0(+0x66c0c) [0x7fdbaa930c0c]
+/lib/x86_64-linux-gnu/libX11.so.6(_XIOError+0x52) [0x7fdc43eb9352]
+/lib/x86_64-linux-gnu/libX11.so.6(_XEventsQueued+0x7d) [0x7fdc43eb6a0d]
+/lib/x86_64-linux-gnu/libX11.so.6(XPending+0x61) [0x7fdc43ea8211]
+/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0(+0x5c3ef) [0x7fdbaa9263ef]
+/lib/x86_64-linux-gnu/libglib-2.0.so.0(g_main_context_check+0x1d1) [0x7fdb93b44da1]
+/lib/x86_64-linux-gnu/libglib-2.0.so.0(+0x52312) [0x7fdb93b45312]
+/lib/x86_64-linux-gnu/libglib-2.0.so.0(g_main_loop_run+0x83) [0x7fdb93b456f3]
+/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0(gtk_main+0xc2) [0x7fdb940bb092]
+/tools/xilinx/Vivado/2021.2/tps/lnx64/javafx-sdk-11.0.2/lib/libglassgtk2.so(Java_com_sun_glass_ui_gtk_GtkApplication__1runLoop+0x52) [0x7fdb9348ebd2]
+[0x7fdbdb0a1710]
